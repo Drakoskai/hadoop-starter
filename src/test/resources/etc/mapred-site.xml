@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+    <property>
+        <name>mapred.job.tracker</name>
+        <value>localhost:8025</value>
+    </property>
+    <property>
+        <name>mapred.framework.name</name>
+        <value>yarn</value>
+    </property>
+    <!--<property>
+        <name>mapred.system.dir</name>
+        <value>file://target/hadoop/mapred/system/</value>
+    </property>
+    <property>
+        <name>mapred.local.dir</name>
+        <value>file://target/hadoop/mapred/local/</value>
+    </property>-->
+</configuration>
